@@ -1,0 +1,178 @@
+fileFormatVersion: 2
+guid: 0ed673ae6f370d546ae31fb12f8b84e7
+timeCreated: 1526593231
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: 1_final
+    100002: 1_principio
+    100004: 2_medio_medio_final
+    100006: 2_medio_medio_principio
+    100008: 3_Cilindro_1
+    100010: 3_Cilindro_2
+    100012: 3_Cilindro_3
+    100014: 3_Cilindro_3_2
+    100016: Booleano_1
+    100018: Booleano_1_2
+    100020: centro
+    100022: Cinema_4D_Editor
+    100024: Cubo_3
+    100026: Cubo_3_2
+    100028: Nulo_
+    100030: pared_octava
+    100032: pared_octava_1
+    100034: //RootNode
+    100036: Primer_stage_lineas
+    100038: Segun_stage_lineas
+    100040: Tercer_stage_lineas
+    400000: 1_final
+    400002: 1_principio
+    400004: 2_medio_medio_final
+    400006: 2_medio_medio_principio
+    400008: 3_Cilindro_1
+    400010: 3_Cilindro_2
+    400012: 3_Cilindro_3
+    400014: 3_Cilindro_3_2
+    400016: Booleano_1
+    400018: Booleano_1_2
+    400020: centro
+    400022: Cinema_4D_Editor
+    400024: Cubo_3
+    400026: Cubo_3_2
+    400028: Nulo_
+    400030: pared_octava
+    400032: pared_octava_1
+    400034: //RootNode
+    400036: Primer_stage_lineas
+    400038: Segun_stage_lineas
+    400040: Tercer_stage_lineas
+    2000000: Cinema_4D_Editor
+    2300000: 1_final
+    2300002: 1_principio
+    2300004: 2_medio_medio_final
+    2300006: 2_medio_medio_principio
+    2300008: 3_Cilindro_1
+    2300010: 3_Cilindro_2
+    2300012: 3_Cilindro_3
+    2300014: 3_Cilindro_3_2
+    2300016: Booleano_1
+    2300018: Booleano_1_2
+    2300020: centro
+    2300022: Cubo_3
+    2300024: Cubo_3_2
+    3300000: 1_final
+    3300002: 1_principio
+    3300004: 2_medio_medio_final
+    3300006: 2_medio_medio_principio
+    3300008: 3_Cilindro_1
+    3300010: 3_Cilindro_2
+    3300012: 3_Cilindro_3
+    3300014: 3_Cilindro_3_2
+    3300016: Booleano_1
+    3300018: Booleano_1_2
+    3300020: centro
+    3300022: Cubo_3
+    3300024: Cubo_3_2
+    4300000: Cubo_3
+    4300002: Booleano_1
+    4300004: Cubo_3_2
+    4300006: Booleano_1_2
+    4300008: centro
+    4300010: 1_final
+    4300012: 1_principio
+    4300014: 2_medio_medio_final
+    4300016: 2_medio_medio_principio
+    4300018: 3_Cilindro_3
+    4300020: 3_Cilindro_2
+    4300022: 3_Cilindro_1
+    4300024: 3_Cilindro_3_2
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.1
+    second: {fileID: 2100000, guid: 78791821efd742e4ab1b4a7433b2980e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.1_1
+    second: {fileID: 2100000, guid: db61f8bd2c86f464e8c1be4a6a3b8225, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

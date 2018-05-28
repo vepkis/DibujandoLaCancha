@@ -1,0 +1,248 @@
+fileFormatVersion: 2
+guid: c219d8bf59b962f42bbc6d072d854f6e
+timeCreated: 1526626102
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: ArmsPayDay
+    100004: ArmsPayDay_2
+    100006: Cilindro_2
+    100008: Cilindro_2_2
+    100010: Cinema_4D_Editor
+    100012: FpsArmsPayDay_1
+    100014: FpsArmsPayDay_1_2
+    100016: LeftHand_1
+    100018: LeftHand_1_2
+    100020: LeftHandIndex1
+    100022: LeftHandIndex1_2
+    100024: LeftHandIndex2
+    100026: LeftHandIndex2_2
+    100028: LeftHandIndex3
+    100030: LeftHandIndex3_2
+    100032: LeftHandIndex4
+    100034: LeftHandIndex4_2
+    100036: LeftHandMiddle1
+    100038: LeftHandMiddle1_2
+    100040: LeftHandMiddle2
+    100042: LeftHandMiddle2_2
+    100044: LeftHandMiddle3
+    100046: LeftHandMiddle3_2
+    100048: LeftHandMiddle4
+    100050: LeftHandMiddle4_2
+    100052: LeftHandPinky1
+    100054: LeftHandPinky1_2
+    100056: LeftHandPinky2
+    100058: LeftHandPinky2_2
+    100060: LeftHandPinky3
+    100062: LeftHandPinky3_2
+    100064: LeftHandPinky4
+    100066: LeftHandPinky4_2
+    100068: LeftHandRing1
+    100070: LeftHandRing1_2
+    100072: LeftHandRing2
+    100074: LeftHandRing2_2
+    100076: LeftHandRing3
+    100078: LeftHandRing3_2
+    100080: LeftHandRing4
+    100082: LeftHandRing4_2
+    100084: LeftHandThumb1
+    100086: LeftHandThumb1_2
+    100088: LeftHandThumb2
+    100090: LeftHandThumb2_2
+    100092: LeftHandThumb3
+    100094: LeftHandThumb3_2
+    100096: LeftHandThumb4
+    100098: LeftHandThumb4_2
+    100100: mano
+    100102: mano_1
+    100104: Nulo__6
+    100106: Nulo__6_2
+    100108: Reference
+    100110: Reference_2
+    400000: //RootNode
+    400002: ArmsPayDay
+    400004: ArmsPayDay_2
+    400006: Cilindro_2
+    400008: Cilindro_2_2
+    400010: Cinema_4D_Editor
+    400012: FpsArmsPayDay_1
+    400014: FpsArmsPayDay_1_2
+    400016: LeftHand_1
+    400018: LeftHand_1_2
+    400020: LeftHandIndex1
+    400022: LeftHandIndex1_2
+    400024: LeftHandIndex2
+    400026: LeftHandIndex2_2
+    400028: LeftHandIndex3
+    400030: LeftHandIndex3_2
+    400032: LeftHandIndex4
+    400034: LeftHandIndex4_2
+    400036: LeftHandMiddle1
+    400038: LeftHandMiddle1_2
+    400040: LeftHandMiddle2
+    400042: LeftHandMiddle2_2
+    400044: LeftHandMiddle3
+    400046: LeftHandMiddle3_2
+    400048: LeftHandMiddle4
+    400050: LeftHandMiddle4_2
+    400052: LeftHandPinky1
+    400054: LeftHandPinky1_2
+    400056: LeftHandPinky2
+    400058: LeftHandPinky2_2
+    400060: LeftHandPinky3
+    400062: LeftHandPinky3_2
+    400064: LeftHandPinky4
+    400066: LeftHandPinky4_2
+    400068: LeftHandRing1
+    400070: LeftHandRing1_2
+    400072: LeftHandRing2
+    400074: LeftHandRing2_2
+    400076: LeftHandRing3
+    400078: LeftHandRing3_2
+    400080: LeftHandRing4
+    400082: LeftHandRing4_2
+    400084: LeftHandThumb1
+    400086: LeftHandThumb1_2
+    400088: LeftHandThumb2
+    400090: LeftHandThumb2_2
+    400092: LeftHandThumb3
+    400094: LeftHandThumb3_2
+    400096: LeftHandThumb4
+    400098: LeftHandThumb4_2
+    400100: mano
+    400102: mano_1
+    400104: Nulo__6
+    400106: Nulo__6_2
+    400108: Reference
+    400110: Reference_2
+    2000000: Cinema_4D_Editor
+    2300000: Cilindro_2
+    2300002: Cilindro_2_2
+    3300000: Cilindro_2
+    3300002: Cilindro_2_2
+    4300000: Cilindro_2
+    4300002: ArmsPayDay
+    4300004: Cilindro_2_2
+    4300006: ArmsPayDay_2
+    7400000: CINEMA_4D_Principal
+    9500000: //RootNode
+    13700000: ArmsPayDay
+    13700002: ArmsPayDay_2
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.17
+    second: {fileID: 2100000, guid: ba57153bdfd3f2b4f8a983b8d8cc19ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.6
+    second: {fileID: 2100000, guid: f819a3023ac779d4d97c2a3a79757844, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: CINEMA_4D_Principal
+      takeName: CINEMA_4D_Principal
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
