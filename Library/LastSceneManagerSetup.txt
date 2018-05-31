@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Escenas/Una.unity
+- path: Assets/Escenas/Datos_OscTest.unity
   isLoaded: 1
   isActive: 1

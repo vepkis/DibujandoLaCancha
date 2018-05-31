@@ -6,11 +6,10 @@ public class ReceiveDedos : MonoBehaviour
 {
 
 	public OSC osc;
-	private int dIndice, dCorazon, dAnular, dMenique, dPulgar, palma;
-	private float esc0, esc1, esc2, esc3;
-	//private float[] dedos = new float[5];
+	private float dIndice, dCorazon, dAnular, dMenique, dPulgar, palma;
+private float[] dedos = new float[5];
 
-	private int[] dedos = new int[5];
+//	private int[] dedos = new int[5];
 
 
 	// Use this for initialization
@@ -23,10 +22,6 @@ public class ReceiveDedos : MonoBehaviour
 		osc.SetAddressHandler ("/user1/guanteDer/Pulgar", OnReceivePulgar);
 		osc.SetAddressHandler ("/user1/guanteDer/Palma", OnReceivePalma);
 
-		osc.SetAddressHandler ("/escenaOsc/0", OnReceiveEscena0);
-		osc.SetAddressHandler ("/escenaOsc/1", OnReceiveEscena1);
-		osc.SetAddressHandler ("/escenaOsc/2", OnReceiveEscena2);
-		osc.SetAddressHandler ("/escenaOsc/3", OnReceiveEscena3);
 
 	}
 
@@ -35,59 +30,40 @@ public class ReceiveDedos : MonoBehaviour
 	{
 	}
 
-	private void OnReceiveEscena0 (OscMessage message)
-	{
-		this.esc0 = message.GetFloat (0);
-	}
-
-	private void OnReceiveEscena1 (OscMessage message)
-	{
-		this.esc1 = message.GetFloat (0);
-	}
-
-	private void OnReceiveEscena2 (OscMessage message)
-	{
-		this.esc2 = message.GetFloat (0);
-	}
-
-	private void OnReceiveEscena3 (OscMessage message)
-	{
-		this.esc3 = message.GetFloat (0);
-	}
 
 	//-----Eventos mano
 
 	private void OnReceiveIndice (OscMessage message)
 	{
-		this.dIndice = message.GetInt (0);
+		this.dIndice = message.GetFloat (0);
 	}
 
 	private void OnReceiveCorazon (OscMessage message)
 	{
-		this.dCorazon = message.GetInt (0);
+		this.dCorazon = message.GetFloat (0);
 	}
 
 	private void OnReceiveAnular (OscMessage message)
 	{
-		this.dAnular = message.GetInt (0);
+		this.dAnular = message.GetFloat (0);
 	}
 
 	private void OnReceiveMenique (OscMessage message)
 	{
-		this.dMenique = message.GetInt (0);
+		this.dMenique = message.GetFloat (0);
 	}
 
 	private void OnReceivePulgar (OscMessage message)
 	{
-		this.dPulgar = message.GetInt (0);
+		this.dPulgar = message.GetFloat (0);
 	}
 
 	private void OnReceivePalma (OscMessage message)
 	{
-		this.palma = message.GetInt (0);
+		this.palma = message.GetFloat (0);
 	}
 
-	public int [] getValoresDedos ()
+	public float [] getValoresDedos ()
 	{
 		dedos [0] = dPulgar;
 		dedos [1] = dIndice;
@@ -97,7 +73,7 @@ public class ReceiveDedos : MonoBehaviour
 		return dedos;
 	}
 
-	public int getPalma ()
+	public float getPalma ()
 	{
 		return palma;
 	}

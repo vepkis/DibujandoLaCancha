@@ -57,6 +57,7 @@
      <Compile Include="Assets\Scripts\DetectorDeAltura.cs" />
      <Compile Include="Assets\Scripts\Movimiento.cs" />
      <Compile Include="Assets\Scripts\ObservadorMaster.cs" />
+     <Compile Include="Assets\Scripts\Osc\ManoMov\RotacionMano.cs" />
      <Compile Include="Assets\Scripts\Osc\OSC.cs" />
      <Compile Include="Assets\Scripts\Osc\ReceiveDedos.cs" />
      <Compile Include="Assets\Scripts\Osc\ReceivePosition.cs" />
@@ -71,6 +72,7 @@
      <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
      <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
      <None Include="Assets\Editor\Vuforia\VuforiaMars_VuMark\authoringinfo.xml" />
+     <None Include="Assets\StreamingAssets\Vuforia\Patron_musinetik01.xml" />
      <None Include="Assets\Editor\Vuforia\TargetsetData\VuforiaMars_Object_info.xml" />
      <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Object_OT.xml" />
      <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />

@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Escenas/Tuto_1.unity
     guid: 1f6c300aa9d804a70b64b37c9dd285c9
-  - enabled: 1
+  - enabled: 0
     path: Assets/Escenas/Una.unity
     guid: 09ebf7a492d5c472f960e8c75243bc64
   - enabled: 0
@@ -17,3 +17,6 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Escenas/Dos_22.unity
     guid: 46913c03f24d34a868ad45b3d94917d8
+  - enabled: 1
+    path: Assets/Escenas/Una_22.unity
+    guid: 9cede8517bb5648d791d92c9a438863e

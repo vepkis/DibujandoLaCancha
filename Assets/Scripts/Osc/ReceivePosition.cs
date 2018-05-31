@@ -10,6 +10,9 @@ public class ReceivePosition : MonoBehaviour
 	public OSC osc;
 	public Vector3 valorVector;
 
+	public float velocidad = 10.0F; //Velocidad de movimiento
+	public float rotationSpeed = 100.0F; //Velocidad de rotación
+
 	// Use this for initialization
 	public void Start ()
 	{
@@ -23,8 +26,20 @@ public class ReceivePosition : MonoBehaviour
 	{
 	
 	}
-		
+	//Recordar que esto hay que modificarlo!__K	
 	void OnReceiveX (OscMessage message)
+	{
+		float x = message.GetFloat (0);
+
+		valorVector = transform.position;
+
+		valorVector.x = x*velocidad*Time.deltaTime;
+
+		transform.position = valorVector;
+
+	}
+
+/*	void OnReceiveX (OscMessage message)
 	{
 		float x = message.GetFloat (0);
 
@@ -35,7 +50,7 @@ public class ReceivePosition : MonoBehaviour
 		transform.position = valorVector;
 
 	}
-
+*/
 	void OnReceiveY (OscMessage message)
 	{
 		float y = message.GetFloat (0);
