@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-	public class CreaNota : MonoBehaviour {
+public class CreaNota : MonoBehaviour
+{
 
 
 	public GameObject Pulgar;
@@ -15,46 +16,47 @@ using UnityEngine;
 
 	public ReceiveDedos recDedos;
 	//	public float velBall = 100.0f;
-		// Use this for initialization
-		void Start () {
-		}
+	// Use this for initialization
 
-		// Update is called once per frame
-		public void Update () {
+	private bool presionaDO, presionaRE, presionaMI, presionaFA, presionaSI, presionaLA;
+
+	void Start ()
+	{
+		presionaDO = false;
 	}
-		
 
-	public void tecladoAcciona()
+	// Update is called once per frame
+	public void Update ()
+	{
+	}
+
+
+	public void tecladoAcciona ()
 	{
 
-		if (Input.GetKeyUp(KeyCode.Y))
-		{
+		if (Input.GetKeyUp (KeyCode.Y)) {
 			getPulgar ();
 		}
 
-		if (Input.GetKeyUp(KeyCode.U))
-		{
+		if (Input.GetKeyUp (KeyCode.U)) {
 			getNotaDo ();
 		}
 
-		if (Input.GetKeyUp(KeyCode.I))
-		{
+		if (Input.GetKeyUp (KeyCode.I)) {
 			getNotaRe ();
 		}
-		if (Input.GetKeyUp(KeyCode.O))
-		{
+		if (Input.GetKeyUp (KeyCode.O)) {
 			getNotaMi ();
 		}
 
-		if (Input.GetKeyUp(KeyCode.P))
-		{
+		if (Input.GetKeyUp (KeyCode.P)) {
 			getNotaFa ();
 		}	
 
 	}
 
 
-	public void manoAcciona()
+	public void manoAcciona ()
 	{
 
 
@@ -69,6 +71,8 @@ using UnityEngine;
 			if (recDedos.getValoresDedos () [1] > 0) {
 				getNotaDo ();
 				print ("LIFE____");
+			} else if (recDedos.getValoresDedos () [0] == 0) {
+				presionaDO = false;
 			}
 
 			if (recDedos.getValoresDedos () [2] > 0) {
@@ -85,31 +89,46 @@ using UnityEngine;
 	}
 
 
-	public void getPulgar()
+	public void getPulgar ()
 	{
-		GameObject instancia= Instantiate (Pulgar);
-		instancia.transform.position = transform.position;
-	}
-	public void getNotaDo()
-	{
-		GameObject instancia= Instantiate (NotaDo);
+		GameObject instancia = Instantiate (Pulgar);
 		instancia.transform.position = transform.position;
 
-	}	
-	public void getNotaRe()
+	}
+
+	public void getNotaDo ()
 	{
-		GameObject instancia= Instantiate (NotaRe);
-		instancia.transform.position = transform.position;
-	}	
-	public void getNotaMi()
+		presionaDO = true;
+		if (presionaDO == true) {
+			
+			GameObject instancia = Instantiate (NotaDo);
+			instancia.transform.position = transform.position;
+			presionaDO = false;
+		}
+	}
+
+	public void getNotaRe ()
 	{
-		GameObject instancia= Instantiate (NotaMi);
+		GameObject instancia = Instantiate (NotaRe);
 		instancia.transform.position = transform.position;
-	}		
-	public void getNotaFa()
+	}
+
+	public void getNotaMi ()
 	{
-		GameObject instancia= Instantiate (NotaFa);
+		GameObject instancia = Instantiate (NotaMi);
 		instancia.transform.position = transform.position;
-	}	
+	}
+
+	public void getNotaFa ()
+	{
+		GameObject instancia = Instantiate (NotaFa);
+		instancia.transform.position = transform.position;
+	}
+
+
+	public void restricciones ()
+	{
+
+	}
 
 }

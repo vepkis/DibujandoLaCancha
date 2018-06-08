@@ -55,6 +55,11 @@
      <Compile Include="Assets\Scripts\ActivadorMultiples.cs" />
      <Compile Include="Assets\Scripts\CreaNota.cs" />
      <Compile Include="Assets\Scripts\DetectorDeAltura.cs" />
+     <Compile Include="Assets\Scripts\LineRender\DrawLine.cs" />
+     <Compile Include="Assets\Scripts\LineRender\DrawLinePro.cs" />
+     <Compile Include="Assets\Scripts\LineRender\GranNota.cs" />
+     <Compile Include="Assets\Scripts\LineRender\Triggersito.cs" />
+     <Compile Include="Assets\Scripts\MasterNota.cs" />
      <Compile Include="Assets\Scripts\Movimiento.cs" />
      <Compile Include="Assets\Scripts\ObservadorMaster.cs" />
      <Compile Include="Assets\Scripts\Osc\ManoMov\RotacionMano.cs" />

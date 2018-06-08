@@ -7,7 +7,7 @@ public class Movimiento : MonoBehaviour {
 		// Use this for initialization
 		public float speed = 10.0F;
 		//Velocidad de movimiento
-		public float rotationSpeed = 100.0F;
+//		public float rotationSpeed = 100.0F;
 		//Velocidad de rotación
 
 		void Update ()

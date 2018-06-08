@@ -31,12 +31,12 @@ public class ReceivePosition : MonoBehaviour
 	{
 		float x = message.GetFloat (0);
 
-		valorVector = transform.position;
+		//valorVector = transform.position;
 
-		valorVector.x = x*velocidad*Time.deltaTime;
+		valorVector.x = x;
 
 		transform.position = valorVector;
-
+		print (valorVector);
 	}
 
 /*	void OnReceiveX (OscMessage message)

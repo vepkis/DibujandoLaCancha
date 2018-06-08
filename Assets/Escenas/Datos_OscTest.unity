@@ -209,7 +209,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af1fb6544c24489fbcbeec5b86bf195, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Clavija: {fileID: 0}
+  Clavija: {fileID: 1663926902}
   speed: 10
   rotationSpeed: 100
 --- !u!1 &1266306897
