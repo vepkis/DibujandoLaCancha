@@ -9,8 +9,8 @@ public class DrawLinePro : MonoBehaviour {
 	private float dist;
 
 
-	private Transform origen;
-	private Transform destino;
+	public Vector3 origen;
+	public Vector3 destino;
 
 	private float lineDrawSpeed = 0.8f;
 
@@ -29,14 +29,17 @@ public class DrawLinePro : MonoBehaviour {
 
 	}
 
-	public void setOrigen(Transform origen_)
+	public void setOrigen(Vector3 origen_)
 	{
 		origen=origen_;
+		print (origen);
 	}
 
-	public void setDestino( Transform destino_)
+	public void setDestino( Vector3 destino_)
 	{
 		destino=destino_;
+		print (origen);
+
 	}
 
 	public void dibuja (){
@@ -53,9 +56,15 @@ public class DrawLinePro : MonoBehaviour {
 
 		if (activaEntrada== true)
 		{
-			lineRenderer.SetPosition (0, origen.position);
+			lineRenderer.SetPosition (0, origen);
+			lineRenderer.SetPosition (1, destino);
+
 		}
 
+		if (activaSalida== true)
+		{
+			lineRenderer.SetPosition (1, destino);
+		}
 	}
 
 	public void setActivaEntrada (bool activaEntrada_)

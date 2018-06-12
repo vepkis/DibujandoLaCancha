@@ -8,12 +8,9 @@ public class GranNota : MonoBehaviour {
 	public Triggersito trigB;
 
 
-	// Use this for initialization
 	void Start () {
-		//trig = new Triggersito ();
 	}
 	
-	// Update is called once per frame
 	void Update () {
 		
 	}
@@ -24,9 +21,16 @@ public class GranNota : MonoBehaviour {
 
 	}
 
-	public Triggersito getTrig()
+	public Triggersito getTrigA()
 	{
 		return this.trigA;
 	}
+
+	public Triggersito getTrigB()
+	{
+		return this.trigB;
+	}
+
+
 
 }

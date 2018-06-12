@@ -366,6 +366,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gNota: {fileID: 744747360}
   dLPro: {fileID: 1129901902}
+  player: {fileID: 95539379}
 --- !u!1 &744747358
 GameObject:
   m_ObjectHideFlags: 0
@@ -544,6 +545,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3cf36ce6312214fea95e3e4e443d9721, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  origen: {x: 0, y: 0, z: 0}
+  destino: {x: 0, y: 0, z: 0}
 --- !u!120 &1129901903
 LineRenderer:
   m_ObjectHideFlags: 0
