@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c29ff6bcb283d453482af89586dda6b6
+timeCreated: 1529605505
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - trigA: {fileID: 1753412165581488, guid: 88e7874970abb4c188aa5ce427fd4aba, type: 2}
+  - trigB: {fileID: 1965785534684656, guid: e08cd387cb3284e3cb6685978a763062, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

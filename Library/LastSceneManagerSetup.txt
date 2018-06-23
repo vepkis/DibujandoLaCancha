@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Escenas/LineRendered_Uju.unity
+- path: Assets/Escenas/Finini/Entrega_1.unity
   isLoaded: 1
   isActive: 1

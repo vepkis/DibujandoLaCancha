@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="Patron_4" size="50.000000 33.333332" />
     <ImageTarget name="musinetik-01" size="50.000000 70.709808" />
     <ImageTarget name="Patron_Musinetik_Guly" size="50.000000 35.354904" />
     <ImageTarget name="Patron_Musinetik_01-02-02" size="50.000000 35.355774" />

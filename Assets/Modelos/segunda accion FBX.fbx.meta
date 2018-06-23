@@ -1,0 +1,286 @@
+fileFormatVersion: 2
+guid: 9326f4a9e425a4f878ff4d9f85f0721c
+timeCreated: 1529684213
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: 2_medio_medio_final
+    100002: 2_medio_medio_principio
+    100004: 3_Cilindro_1
+    100006: 3_Cilindro_2
+    100008: ArmsPayDay
+    100010: Booleano_1
+    100012: Booleano_1_2
+    100014: centro
+    100016: Cilindro_2
+    100018: Cinema_4D_Editor
+    100020: Cubo_3
+    100022: Cubo_3_2
+    100024: Esfera
+    100026: Esfera_1
+    100028: FpsArmsPayDay_1
+    100030: LeftHand_1
+    100032: LeftHandIndex1
+    100034: LeftHandIndex2
+    100036: LeftHandIndex3
+    100038: LeftHandIndex4
+    100040: LeftHandMiddle1
+    100042: LeftHandMiddle2
+    100044: LeftHandMiddle3
+    100046: LeftHandMiddle4
+    100048: LeftHandPinky1
+    100050: LeftHandPinky2
+    100052: LeftHandPinky3
+    100054: LeftHandPinky4
+    100056: LeftHandRing1
+    100058: LeftHandRing2
+    100060: LeftHandRing3
+    100062: LeftHandRing4
+    100064: LeftHandThumb1
+    100066: LeftHandThumb2
+    100068: LeftHandThumb3
+    100070: LeftHandThumb4
+    100072: mano
+    100074: Nulo_
+    100076: Nulo__6
+    100078: pared_octava
+    100080: pared_octava_1
+    100082: Plano_1
+    100084: Primer_stage_lineas
+    100086: Reference
+    100088: Segun_stage_lineas
+    100090: //RootNode
+    100092: Tercer_stage_lineas
+    400000: 2_medio_medio_final
+    400002: 2_medio_medio_principio
+    400004: 3_Cilindro_1
+    400006: 3_Cilindro_2
+    400008: ArmsPayDay
+    400010: Booleano_1
+    400012: Booleano_1_2
+    400014: centro
+    400016: Cilindro_2
+    400018: Cinema_4D_Editor
+    400020: Cubo_3
+    400022: Cubo_3_2
+    400024: Esfera
+    400026: Esfera_1
+    400028: FpsArmsPayDay_1
+    400030: LeftHand_1
+    400032: LeftHandIndex1
+    400034: LeftHandIndex2
+    400036: LeftHandIndex3
+    400038: LeftHandIndex4
+    400040: LeftHandMiddle1
+    400042: LeftHandMiddle2
+    400044: LeftHandMiddle3
+    400046: LeftHandMiddle4
+    400048: LeftHandPinky1
+    400050: LeftHandPinky2
+    400052: LeftHandPinky3
+    400054: LeftHandPinky4
+    400056: LeftHandRing1
+    400058: LeftHandRing2
+    400060: LeftHandRing3
+    400062: LeftHandRing4
+    400064: LeftHandThumb1
+    400066: LeftHandThumb2
+    400068: LeftHandThumb3
+    400070: LeftHandThumb4
+    400072: mano
+    400074: Nulo_
+    400076: Nulo__6
+    400078: pared_octava
+    400080: pared_octava_1
+    400082: Plano_1
+    400084: Primer_stage_lineas
+    400086: Reference
+    400088: Segun_stage_lineas
+    400090: //RootNode
+    400092: Tercer_stage_lineas
+    2000000: Cinema_4D_Editor
+    2300000: 2_medio_medio_final
+    2300002: 2_medio_medio_principio
+    2300004: 3_Cilindro_1
+    2300006: 3_Cilindro_2
+    2300008: Booleano_1
+    2300010: Booleano_1_2
+    2300012: centro
+    2300014: Cilindro_2
+    2300016: Cubo_3
+    2300018: Cubo_3_2
+    2300020: Esfera
+    2300022: Esfera_1
+    2300024: Plano_1
+    3300000: 2_medio_medio_final
+    3300002: 2_medio_medio_principio
+    3300004: 3_Cilindro_1
+    3300006: 3_Cilindro_2
+    3300008: Booleano_1
+    3300010: Booleano_1_2
+    3300012: centro
+    3300014: Cilindro_2
+    3300016: Cubo_3
+    3300018: Cubo_3_2
+    3300020: Esfera
+    3300022: Esfera_1
+    3300024: Plano_1
+    4300000: Esfera_1
+    4300002: Cubo_3
+    4300004: Booleano_1
+    4300006: Cubo_3_2
+    4300008: Booleano_1_2
+    4300010: centro
+    4300012: 2_medio_medio_final
+    4300014: 2_medio_medio_principio
+    4300016: 3_Cilindro_2
+    4300018: 3_Cilindro_1
+    4300020: Plano_1
+    4300022: Esfera
+    4300024: Cilindro_2
+    4300026: ArmsPayDay
+    7400000: CINEMA_4D_Principal
+    9500000: //RootNode
+    13700000: ArmsPayDay
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.1
+    second: {fileID: 2100000, guid: 13d365265c40f47889fb482658f7b0c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.10
+    second: {fileID: 2100000, guid: 4e5be4c2c4ae145c19e75c2eb582efa5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.11
+    second: {fileID: 2100000, guid: 04f97919800e84b0eac89bb63de3f1f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.12
+    second: {fileID: 2100000, guid: 37648b4a90e354b779609ba2df2bf269, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.1_1
+    second: {fileID: 2100000, guid: 14d9e7f093ddd4639b841a13adaa6b03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.6
+    second: {fileID: 2100000, guid: 63da7243768a2426dac530e98891c2cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 75a338d3000a346bd815c18d48cb76e9, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: CINEMA_4D_Principal
+      takeName: CINEMA_4D_Principal
+      firstFrame: 0
+      lastFrame: 330
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

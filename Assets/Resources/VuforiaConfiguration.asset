@@ -24,7 +24,7 @@ MonoBehaviour:
   digitalEyewear:
     cameraOffset: 0.06
     distortionRenderingLayer: 31
-    eyewearType: 0
+    eyewearType: 2
     stereoFramework: 0
     seeThroughConfiguration: 0
     viewerName: Generic Cardboard
@@ -44,8 +44,10 @@ MonoBehaviour:
       ContainsMagnet: 0
   databaseLoad:
     dataSetsToLoad:
+    - Patrones_A4_Pared
     - Patron_musinetik01
     dataSetsToActivate:
+    - Patrones_A4_Pared
     - Patron_musinetik01
   videoBackground:
     clippingMode: 0
@@ -60,9 +62,9 @@ MonoBehaviour:
     autoInitBuilder: 0
     sceneUnitsToMillimeter: 0
   deviceTracker:
-    autoInitTracker: 1
-    autoStartTracker: 1
-    trackingMode: 0
+    autoInitTracker: 0
+    autoStartTracker: 0
+    trackingMode: 1
     posePrediction: 0
     modelCorrectionMode: 0
     modelTransformEnabled: 0
